@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin:0px;
-    font-family: Be vietnam;sans-serif; }
+    font-family: 'Be Vietnam Pro', sans-serif;}
 
 h1{font-size: 3.625em;}
 h2{font-size: 2.5em;}
@@ -203,9 +203,9 @@ contenido .caja1 {
 
 /*Estilos para el footer*/
 footer {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    font-style: none;
     background-color: #1E1E26;
     margin: 0%;
     padding: 20px;    
@@ -213,11 +213,19 @@ footer {
     align-items: center;
 }
 
-.logofooter{
+footer .cajafooter1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
+.logofooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:20px;
+}
+
 .cajafooter {
     display: flex;
     flex-direction: column;
@@ -245,9 +253,13 @@ footer a{
 .cajaform .form{
     display: flex;
     flex-direction: row;
+    border-radius: 50px;
 }
 
-#copy{
+.copy{
     color: #8C8C94;
     font-size: 12.5px;
+    padding-top: 50px;
 }
+
+
